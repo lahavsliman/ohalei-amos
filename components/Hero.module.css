@@ -180,4 +180,24 @@
   .logoWrap img {
     height: 80px;
   }
+  .badges {
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+  .badge {
+    font-size: 0.78rem;
+    padding: 7px 12px;
+    white-space: nowrap;
+  }
+  .cta {
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+  .btnPrimary,
+  .btnSecondary {
+    flex: 1;
+    justify-content: center;
+    padding: 14px 12px;
+    font-size: 0.95rem;
+  }
 }

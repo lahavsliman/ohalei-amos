@@ -18,9 +18,9 @@ export default function Hero() {
           שירות מהיר, ציוד נקי ואיכותי, זמינות 24/6 בפריסה ארצית.
         </p>
         <div className={s.badges}>
-          <span className={s.badge}>⚡ זמינות מיידית</span>
-          <span className={s.badge}>🗺️ פריסה ארצית</span>
-          <span className={s.badge}>✅ ציוד נקי ואיכותי</span>
+          <span className={s.badge}>זמינות מיידית</span>
+          <span className={s.badge}>פריסה ארצית</span>
+          <span className={s.badge}>ציוד נקי ואיכותי</span>
         </div>
         <div className={s.cta}>
           <a href="https://api.whatsapp.com/send?phone=972549485754" className={s.btnPrimary}>
