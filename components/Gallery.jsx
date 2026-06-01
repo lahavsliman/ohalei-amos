@@ -3,17 +3,17 @@ import s from './Gallery.module.css';
 
 // ── Add / remove images here. Put files in public/gallery/ ──────────────────
 const IMAGES = [
-  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.12 (1).jpg', alt: 'אוהל שבעה' },
-  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.12 (2).jpg', alt: 'ציוד שבעה' },
-  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.12 (3).jpg', alt: 'הקמה' },
-  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.12 (4).jpg', alt: 'אוהל' },
-  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.12.jpg', alt: 'ציוד' },
-  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.13 (1).jpg', alt: 'הקמה' },
-  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.13 (2).jpg', alt: 'אוהל' },
-  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.13 (3).jpg', alt: 'ציוד' },
-  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.13.jpg', alt: 'הקמה' },
-  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.14 (1).jpg', alt: 'אוהל' },
-  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.14.jpg', alt: 'ציוד' },
+  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.12 (1).webp', alt: 'אוהל שבעה' },
+  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.12 (2).webp', alt: 'ציוד שבעה' },
+  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.12 (3).webp', alt: 'הקמה' },
+  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.12 (4).webp', alt: 'אוהל' },
+  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.12.webp', alt: 'ציוד' },
+  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.13 (1).webp', alt: 'הקמה' },
+  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.13 (2).webp', alt: 'אוהל' },
+  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.13 (3).webp', alt: 'ציוד' },
+  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.13.webp', alt: 'הקמה' },
+  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.14 (1).webp', alt: 'אוהל' },
+  { src: '/gallery/WhatsApp Image 2026-06-01 at 16.56.14.webp', alt: 'ציוד' },
 ];
 // ─────────────────────────────────────────────────────────────────────────────
 
