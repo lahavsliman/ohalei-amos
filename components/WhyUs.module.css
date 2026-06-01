@@ -1,0 +1,130 @@
+.section {
+  background: #F5EDE2;
+  padding: 0 24px 80px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.twoCol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+.card {
+  background: white;
+  border-radius: 24px;
+  padding: 40px 36px;
+  box-shadow: var(--shadow);
+}
+
+.card.dark {
+  background: var(--dark);
+  color: white;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: var(--dark);
+}
+
+.card.dark h3 { color: white; }
+
+.sub {
+  font-size: 0.95rem;
+  color: var(--text-light);
+  margin-bottom: 28px;
+  font-weight: 400;
+}
+
+.card.dark .sub { color: rgba(255,255,255,0.5); }
+
+.featureList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.featureList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.checkIcon {
+  width: 22px;
+  height: 22px;
+  background: rgba(232,129,58,0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+  color: var(--orange);
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+.stepList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.stepList li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.85);
+  line-height: 1.5;
+}
+
+.stepEmoji { font-size: 1.3rem; }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 28px;
+  background: var(--orange);
+  color: white;
+  padding: 13px 28px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: all 0.2s;
+  font-family: 'Heebo', sans-serif;
+}
+
+.btn:hover {
+  background: var(--orange-dark);
+  transform: translateY(-1px);
+}
+
+.btnOutline {
+  background: transparent;
+  border: 1.5px solid rgba(255,255,255,0.25);
+  color: white;
+}
+
+.btnOutline:hover {
+  border-color: var(--orange);
+  color: var(--orange-light);
+}
+
+@media (max-width: 700px) {
+  .twoCol { grid-template-columns: 1fr; }
+  .card { padding: 28px 22px; }
+}
